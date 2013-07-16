@@ -567,7 +567,7 @@ var UI = (function (league, dom, results) {
 
     xhr.get("/results", {ok: function (d) {
         results.setData(d);
-        ui.showMonth();
+        ui.showAllResults();
     }});
 
 }(XHR, LEAGUE, UI, RESULTS));
